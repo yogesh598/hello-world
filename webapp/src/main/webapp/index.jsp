@@ -1,120 +1,144 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Welcome Page</title>
+    <meta charset="UTF-8">
+    <title>Yogesh Kumar - Portfolio</title>
+
     <style>
         body {
             margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background: #f2f6fc;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f4f6fb;
+            color: #333;
         }
 
-        /* Banner */
+        /* Header Banner */
         .banner {
-            background: linear-gradient(90deg, #005bea, #00c6fb);
-            padding: 25px;
+            background: linear-gradient(90deg, #0047ff, #00d4ff);
+            padding: 40px 20px;
             text-align: center;
             color: white;
-            font-size: 28px;
-            font-weight: bold;
-            letter-spacing: 1px;
         }
 
-        /* Main container */
-        .container {
+        .banner h1 {
+            margin: 0;
+            font-size: 38px;
+            font-weight: 700;
+        }
+
+        .banner p {
+            margin-top: 10px;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        /* Section container */
+        .section {
             width: 90%;
-            max-width: 600px;
+            max-width: 900px;
             margin: 40px auto;
-            background: white;
+            background: #fff;
             padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.12);
         }
 
-        .title {
-            font-size: 22px;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 15px;
-            text-align: center;
+        .section h2 {
+            border-left: 4px solid #0047ff;
+            padding-left: 10px;
+            font-size: 24px;
+            margin-bottom: 20px;
         }
 
-        /* Form styling */
-        label {
-            font-weight: bold;
-            color: #555;
-        }
-
-        input, textarea, select {
-            width: 100%;
-            padding: 10px;
-            margin: 8px 0 15px 0;
-            border: 1px solid #ddd;
+        .skill-box {
+            background: #eef3ff;
+            padding: 12px;
+            margin: 8px 0;
             border-radius: 6px;
             font-size: 15px;
         }
 
-        button {
-            width: 100%;
+        .channel-box {
+            background: #fff8e6;
             padding: 12px;
-            font-size: 16px;
-            background: #005bea;
-            color: white;
-            border: none;
+            margin: 8px 0;
             border-radius: 6px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        button:hover {
-            background: #0042b0;
         }
 
         /* Footer */
         .footer {
-            margin-top: 25px;
             text-align: center;
-            color: #777;
-            font-size: 14px;
+            padding: 20px;
+            margin-top: 30px;
+            color: #666;
+            font-size: 15px;
         }
     </style>
 </head>
 
 <body>
 
+    <!-- Banner -->
     <div class="banner">
-        Simple Web Form – JSP Static Page
+        <h1>Yogesh Kumar</h1>
+        <p>Senior Software Engineer | DevOps Aspirant | Cloud & Automation</p>
     </div>
 
-    <div class="container">
-        <div class="title">User Information</div>
+    <!-- About Section -->
+    <div class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a Senior Software Engineer with hands-on experience across Cloud, CI/CD, automation, and 
+            containerization tools. I actively work with 20+ AWS services and have strong technical skills in 
+            DevOps-related technologies like Git, Maven, Jenkins, Docker, Ansible, Kubernetes, Linux, GenAi and Networking.  
+            I am currently Open to Remote Opportunities in  DevOps Engineer role.
+        </p>
+    </div>
 
-        <form action="#">
-            <label>Full Name:</label>
-            <input type="text" placeholder="Enter your name">
+    <!-- Skills Section -->
+    <div class="section">
+        <h2>Technical Skills</h2>
 
-            <label>Email Address:</label>
-            <input type="email" placeholder="Enter your email">
+        <div class="skill-box">✔ AWS Services (20+)</div>
+        <div class="skill-box">✔ Linux</div>
+        <div class="skill-box">✔ Git</div>
+        <div class="skill-box">✔ Maven Build Management</div>
+        <div class="skill-box">✔ Jenkins (CI/CD Pipelines, Groovy scripting)</div>
+        <div class="skill-box">✔ Docker & Kubernetes</div>
+        <div class="skill-box">✔ Ansible</div>
+        <div class="skill-box">✔ Kubernetes</div>
+        <div class="skill-box">✔ YAML for DevOps Workflows</div>
+        <div class="skill-box">✔ Web & Static App Deployments</div>
+    </div>
 
-            <label>Gender:</label>
-            <select>
-                <option>Select Gender</option>
-                <option>Male</option>
-                <option>Female</option>
-                <option>Other</option>
-            </select>
+    <!-- YouTube Channels Section -->
+    <div class="section">
+        <h2>YouTube Channels</h2>
 
-            <label>Message:</label>
-            <textarea rows="4" placeholder="Enter your message"></textarea>
-
-            <button type="submit">Submit</button>
-        </form>
-
-        <div class="footer">
-            © 2025 Your Static JSP Page
+        <div class="channel-box">
+            <strong>🎮 Gaming Channel</strong> — Focused on high-energy gameplay, epic moments,  
+            and entertaining short videos.
         </div>
+
+        <div class="channel-box">
+            <strong>📸 Daily Sprint</strong> — Telugu vlog channel featuring  
+            daily activities, trips, adventure travel, and lifestyle content.
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section">
+        <h2>Contact</h2>
+
+        <p>Email: <strong>yogeshykk5@gmail.com</strong></p>
+
+        <p>GitHub: <strong>https://github.com/yogesh598</strong></p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2025 Yogesh Kumar — Portfolio Static Page
     </div>
 
 </body>
