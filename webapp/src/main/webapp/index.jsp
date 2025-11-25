@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Yogesh Kumar - Portfolio</title>
+    <title>Yogesh Kumar N - Portfolio</title>
 
     <style>
         body {
