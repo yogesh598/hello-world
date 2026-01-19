@@ -106,7 +106,7 @@
         <div class="section about">
             <h2>About Me</h2>
             <p>
-                DevOps Engineer with 2 years of experience in the IT industry, specializing in
+               	<strong>DevOps Engineer</strong> with 2 years of experience in the IT industry, specializing in
                 DevOps practices, Cloud Infrastructure (AWS), CI/CD pipelines, Build Automation,
                 Software Configuration Management, and Infrastructure Management.
                 Hands-on experience in designing, implementing, and maintaining scalable, secure,
@@ -152,14 +152,14 @@
             <h2>Contact</h2>
             <p>📧 Email: <strong>yogeshykk5@gmail.com</strong></p>
             <p>💻 GitHub: <strong>github.com/yogesh598</strong></p>
-			<p>🔗 LinkedIn: <strong>www.linkedin.com/in/yogesh-kumar-narayanagari</strong></p>
+	    <p>🔗 LinkedIn: <strong>www.linkedin.com/in/yogesh-kumar-narayanagari</strong></p>
         </div>
 
         <!-- YouTube -->
         <div class="section youtube">
             <h2>YouTube Channels</h2>
-            <div class="channel-box"><strong>📸 Daily Sprint</strong> — Telugu vlogs, trips, adventures.</div>
-            <div class="channel-box"><strong>🎮 Gaming Channel</strong> — Gameplay, epic moments, shorts.</div>
+            <div class="channel-box"><strong>📸 DailySprint</strong> — Telugu vlogs, trips, adventures.</div>
+            <div class="channel-box"><strong>🎮 Gaming Spotlight</strong> — Gameplay, epic moments, shorts.</div>
         </div>
 
     </div>
