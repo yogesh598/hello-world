@@ -111,8 +111,10 @@
                 Software Configuration Management, and Infrastructure Management.
                 Hands-on experience in designing, implementing, and maintaining scalable, secure,
                 and automated systems.
-                Currently open to remote DevOps Engineer opportunities.
             </p>
+	    <p>
+	    	Currently open to remote DevOps Engineer opportunities.
+	    </p>
         </div>
 
         <!-- Experience -->
